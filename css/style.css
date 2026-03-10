@@ -1,0 +1,110 @@
+html, body{
+margin:0;
+padding:0;
+min-height:100vh;
+}
+
+/* FUNDO DA PÁGINA */
+
+body{
+
+font-family: Arial, sans-serif;
+text-align:center;
+
+background-image: url("../img/fundo.png");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+display:flex;
+flex-direction:column;
+align-items:center;
+
+}
+
+/* CONTAINER CENTRAL */
+
+.container{
+
+background: rgba(255,255,255,0.9);
+
+padding:30px;
+
+border-radius:15px;
+
+width:70%;
+max-width:900px;
+
+margin-top:50px;
+
+box-shadow:0px 5px 20px rgba(0,0,0,0.4);
+
+}
+
+/* TITULOS */
+
+h1{
+color:black;
+}
+
+/* BOTÕES */
+
+button{
+
+font-size:18px;
+padding:12px 25px;
+margin:10px;
+
+border:none;
+border-radius:10px;
+
+background:#4CAF50;
+color:white;
+
+cursor:pointer;
+
+transition:0.3s;
+
+}
+
+button:hover{
+
+background:#45a049;
+transform:scale(1.05);
+
+}
+
+/* LINKS */
+
+a{
+text-decoration:none;
+}
+
+/* CANVAS DE DESENHO */
+
+canvas{
+
+border:4px solid black;
+background:white;
+cursor:crosshair;
+
+max-width:100%;
+
+}
+
+/* CAMPOS DE LOGIN */
+
+input{
+
+padding:10px;
+font-size:16px;
+
+border-radius:8px;
+border:1px solid #ccc;
+
+width:200px;
+
+text-align:center;
+
+}
